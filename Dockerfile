@@ -1,14 +1,8 @@
 FROM node:10-slim
 
-LABEL version="1.0.1"
-LABEL repository="https://github/lannonbr/vsce-action"
-LABEL homepage="https://github/lannonbr/vsce-action"
-LABEL maintainer="Benjamin Lannon <benjamin@lannonbr.com>"
-
-LABEL com.github.actions.name="GitHub Action for vsce"
-LABEL com.github.actions.description="Wraps the vsce CLI to be used in GitHub Actions."
-LABEL com.github.actions.icon="package"
-LABEL com.github.actions.color="green"
+LABEL repository="https://github.com/Meshredded/circleci-vsce"
+LABEL homepage="https://github.com/Meshredded/circleci-vsce"
+LABEL maintainer="Akram MECHERI <mecheri.akram@gmail.com>"
 
 RUN npm i -g vsce
 
